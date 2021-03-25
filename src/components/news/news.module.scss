@@ -1,0 +1,40 @@
+.news {
+    &__container {
+        background-color: #f5f3e3;
+        border: 1px solid gray;
+        border-radius: 5px;
+        padding: 1em;
+    }
+
+    &__title {
+        font-weight: bold;
+        margin: 0em;
+    }
+
+    &__alllinks {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+
+    &__newslink {
+        color: black;
+        margin-bottom: 0.2em;
+        margin-top: 0.2em;
+    }
+
+    &__categorylink {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    &__error {
+        width: 30%;
+    }
+
+    &__loading {
+        width: 30%;
+    }
+}
